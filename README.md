@@ -18,6 +18,10 @@ En el head se ha definido el titulo de la página, el favicon con el logo de la 
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 ```
 ## Body
+### Color de fondo
+```
+<body style="background-color:palegoldenrod";>
+```
 ### Logotipo
 En el body se ha incorporado una imagen de logotipo de la empresa ajustando su ancho y un texto alternativo con la etiqueta alt.
 ```
