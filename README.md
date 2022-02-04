@@ -9,3 +9,17 @@ Al principio del documento se indica el tipo de documento con la siguiente instr
 ```
 <!DOCTYPE html>
 ```
+## Head
+En el head se ha definido el titulo de la página, el favicon con el logo de la empresa y algunos ajustes básicos de estilo.
+```
+<html>
+    <head>
+        <title>Naturgy</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+```
+## Body
+### Logotipo
+En el body se ha incorporado una imagen de logotipo de la empresa ajustando su ancho y un texto alternativo con la etiqueta alt.
+'''
+<img src="images/Naturgy.svg" alt="Logo de Telefonica" width="500" class="center">
+```
