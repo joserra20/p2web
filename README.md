@@ -9,11 +9,6 @@ La página consta de tres páginas además de la pagína principal
 - Contacto
 
 # Desarrollo en HTML
-## Etiqueta HTML
-Al principio del documento se indica el tipo de documento con la siguiente instrucción.
-```
-<!DOCTYPE html>
-```
 ## Head
 En el head se ha definido el titulo de la página, el favicon con el logo de la empresa y algunos ajustes básicos de estilo.
 ```
@@ -32,4 +27,7 @@ En el body se ha incorporado una imagen de logotipo de la empresa ajustando su a
 ```
 <img src="images/Naturgy.svg" alt="Logo de Telefonica" width="500" class="center">
 ```
-
+### Vídeo de YouTube
+Se ha incluido un video de youtube empleando iFrame.
+### Formulario
+Se ha incluido un formulario incluyendo el tipo de dato adecuado.
