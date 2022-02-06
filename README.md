@@ -3,6 +3,11 @@ Este repositorio está destinado a las tareas de desarrollo y despliegue del sit
 
 Acceso a la web: https://joserra20.github.io/p2web/
 
+La página consta de tres páginas además de la pagína principal
+- Tarifas
+- Servicios
+- Contacto
+
 # Desarrollo en HTML
 ## Etiqueta HTML
 Al principio del documento se indica el tipo de documento con la siguiente instrucción.
@@ -27,3 +32,4 @@ En el body se ha incorporado una imagen de logotipo de la empresa ajustando su a
 ```
 <img src="images/Naturgy.svg" alt="Logo de Telefonica" width="500" class="center">
 ```
+
