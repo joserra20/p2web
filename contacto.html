@@ -4,10 +4,11 @@
         <title>Naturgy</title>
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <style>
-            h1 {
+            h1,h2,h3,table {
                 text-align: center;
                 font-family: Arial, Helvetica, sans-serif;}
-            p {text-align: center;}
+            p {text-align: center;
+                font-family: Arial, Helvetica, sans-serif;}
             div {text-align: center;}
 
             .center {
@@ -25,25 +26,71 @@
     </head>
     <body style="background-color:palegoldenrod";>
 
-        
 
         <img src="images/Naturgy.svg" alt="Logo de Telefonica" width="500" class="center">
         <h1>Bienvenido a Naturgy</h1>
         <h2>Tu compañia de luz y gas</h2>
-        <table width="200" border="1" class="table">
-            <tr>
-                <td><a href="#">Tarifas</a></td>
-            </tr>
-            <tr>
-                <td><a href="#">Cotización en bolsa</a></td>
-            </tr>
-            <tr>
-                <td><a href="#">Contacto</a></td>
-            </tr>
-        </table>
+        <p><a href="index.html">Home</a> | <a href="tarifas.html">Tarifas</a> | <a href="contacto.html">Contacto</a></p>
+        <hr size="2px" color="black" />
 
         <h1>Contacto</h1>
         <h3>Puedes contactar con nosotros a través de este formulario</h3>
-        
+        <form>
+    
+                <label for="inputName">Nombre completo</label>
+                <input type="text" class="form-control" id="inputEmail" required="">
+
+                <br><br>
+
+                <label for="inputEmai">Correo electronico</label>
+                <input type="email" class="form-control" id="inputEmail" required="">
+                
+                <br><br>
+    
+                <label for="inputMnesaje" class="form-label">Mensaje</label>
+                <input type="text" class="form-control" id="inputPassword4" required="">
+                
+    
+                <br><br>
+    
+                <label for="inputAddress" class="form-label">Domicilio</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="C/ Gran Via 22" required="">
+                
+    
+                <br><br>
+    
+                <label for="inputCity" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="inputCity" required="">
+                
+    
+                <br><br>
+    
+                <label for="inputState" class="form-label">Provincia</label>
+                <select id="inputState" class="form-select">
+                  <option selected="">Madrid</option>
+                  <option>Málaga</option>
+                  <option>Segovia</option>
+                  <option>Toledo</option>
+                  <option>Soria</option>
+                  <option>Salamanca</option>
+                  <option>Zaragoza</option>
+                  <option>Huesca</option>
+                  <option>Almería</option>
+                </select>
+    
+                <br><br>
+    
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Deseo recibir noticias por correo
+                </label>
+    
+                <br><br>
+    
+                <button type="submit" class="btn btn-primary" onclick="alert('Sus datos han sido registrados')">Enviar
+                  
+                </button>
+            </center>
+          </form>
     </body>
 </html>
